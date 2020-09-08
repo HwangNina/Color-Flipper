@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Rambla:wght@400;700&display=swap');
+
+* {
+    font-family: 'Rambla', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: lightslategray;
+    margin: 0 auto;
+    position: relative;
+}
+
+h1 {
+    display: fixed;
+    margin: 0 auto;
+    background-color: rgb(251, 243, 251);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1.2rem 0;
+    text-align: center;
+}
+
+.color-show {
+    background-color: rgba(0, 0, 0, 0.26);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+    text-align: center;
+    width: 40%;
+    padding: 2.0rem;
+    margin: 0 auto;
+    transform: translateY(120%);
+    font-size: 2rem;
+}
+
+#color-show__btn {
+    background-color: rgb(13, 13, 39);
+    color: whitesmoke;
+    font-size: 1.5rem;
+    padding: 0.8rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#color-show__btn:hover {
+    background-color: black;
+}
+
+@media only screen and (max-width: 1200px){
+    .color-show {
+        width: 80%;
+        padding: 1.2rem;
+        margin: 0 auto;
+        transform: translateY(150%);
+        font-size: 1.2rem;
+    }
+}
